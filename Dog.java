@@ -1,9 +1,9 @@
 public class Dog implements PetInterface {
-    public void myname() {
+  public void dogname() {
         
-        System.out.println("The vegetable says: I am Carrots");
-      }
-      public void symbol() {
-        System.out.println("Dreaming about ME indicate good luck in love and sometimes represent an announcement of an upcoming marriage.");
-      }
+    System.out.println("I also have dog, which name is Browny");
+  }
+  public void symbolize() {
+    System.out.println("My dog symbolize loyalty, honesty, and companionship.");
+  }
 }

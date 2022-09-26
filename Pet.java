@@ -1,24 +1,15 @@
-public class Pet implements Dog {
+public class Pet implements Cat {
 
     private String name;
-    private String symbolize;
 
+    public Pet(String name){
+       this.name = name;
+    }
     public String getName(){
         return name;
     }
-
-    public void setName(String name){
-        this.name = name; 
-    }
-
-    public void String getSymbolize(){
-        return symbolize;
-    }
-    public void setSymbolize(String symbolize){
-        this.symbolize = symbolize;
-    }
-
-    public Pet(String name){
-        this.name = name;
-    }
+     public void setName(String name){
+         this.name = name;
+         
+  }
 }

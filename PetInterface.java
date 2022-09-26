@@ -1,4 +1,4 @@
 public interface PetInterface{
-    public void myname();
-    public void symbol();
+    public void dogname();
+    public void symbolize();
 }

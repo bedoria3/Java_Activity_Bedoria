@@ -1,7 +1,6 @@
 public class Cat extends Pet{
-    String scientific_name;
-    
+    String subject;
     public Cat(String name){
-        super(name)
+        super(name);
     }
 }
